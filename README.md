@@ -1,47 +1,82 @@
-# 🌳 Decision Tree Classifier – Bank Marketing Dataset
+# 🌳 Decision Tree Classifier – Customer Subscription Prediction
 
-This project builds a **Decision Tree Classifier** using the **Bank Marketing Dataset** from the UCI Machine Learning Repository. The goal is to predict whether a customer will subscribe to a term deposit based on demographic and behavioral data.
+## 🎯 Problem Statement
+Predict whether a customer will subscribe to a term deposit based on demographic and behavioral attributes, enabling better targeting strategies for marketing campaigns.
 
-## 🔍 Project Highlights
+---
 
-- Data preprocessing and label encoding of categorical features
-- Binary classification using **DecisionTreeClassifier** from `sklearn`
-- Model evaluation with **accuracy score**, **confusion matrix**, and **classification report**
-- Visual representation of the decision tree
+## 📌 Project Overview
+This project applies a **Decision Tree Classifier** on the **Bank Marketing Dataset** to model customer subscription behavior.  
+The goal is to identify patterns and key factors influencing customer decisions using a supervised machine learning approach.
 
-## 🧰 Tools Used
+---
 
-- Python
-- Pandas
-- Scikit-learn
-- Matplotlib
-- Seaborn
+## 🛠️ Tools & Technologies
+- Python  
+- Pandas  
+- Scikit-learn  
+- Matplotlib  
+- Seaborn  
 
-## 📊 Visuals
+---
 
-### Decision Tree Plot
+## 🔍 Approach
+- Performed data preprocessing including handling categorical variables and feature encoding  
+- Built a classification model using **DecisionTreeClassifier**  
+- Evaluated model performance using accuracy score, confusion matrix, and classification report  
+- Visualized the decision tree to interpret decision rules and feature importance  
+
+---
+
+## 📈 Key Insights
+- Customer subscription is influenced by factors such as **age, job type, and previous campaign outcomes**  
+- Decision Tree model provides interpretable rules for understanding customer behavior  
+- Model performance indicates strong capability in distinguishing between subscribers and non-subscribers  
+
+---
+
+## 📊 Model Evaluation
+- Evaluated using:
+  - Accuracy Score  
+  - Confusion Matrix  
+  - Classification Report  
+
+---
+
+## 📸 Visualization
+### Decision Tree Structure
 ![Decision Tree](decision_tree_visualization.png)
 
-## 📁 Files Included
+---
 
-- `bank-full.csv` – Raw dataset
-- `decision_tree_bank.ipynb` – Notebook with code and visuals
-- `cleaned_data.csv` – Cleaned dataset (optional)
-- `decision_tree_visualization.png` – Exported tree plot
+## 📂 Project Structure
+decision-tree-classifier/
+
+├── bank-full.csv # Raw dataset
+
+├── cleaned_data.csv # Processed dataset
+
+├── decision_tree_bank.ipynb # Model implementation
+
+├── decision_tree_visualization.png
+
+├── README.md
+
+---
 
 ## 📂 Dataset Source
-
-**UCI Repository:**  
+UCI Machine Learning Repository:  
 https://archive.ics.uci.edu/ml/datasets/Bank+Marketing
 
 ---
 
-## 📌 Summary
+## 💡 Business Impact
+- Helps organizations identify potential customers more likely to subscribe  
+- Supports targeted marketing strategies and improves campaign efficiency  
+- Provides interpretable decision rules for better customer segmentation  
 
-This project was completed as **Task 03** during my **Data Science Internship at Prodigy InfoTech**.  
-It allowed me to explore supervised machine learning, tree-based classifiers, and customer behavior prediction in a real-world scenario.
+---
 
 ## 👩‍💻 Author
-**Harshitha Adicherla** 
-
-📬 Feedback and suggestions are welcome!
+**Harshitha Adicherla**  
+GitHub: https://github.com/harshithaadicherla10
